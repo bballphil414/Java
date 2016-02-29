@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CelebTree>
+    <Node>
+        <Type>question</Type>
+        <Content>Would you like to play the question game?</Content>
+        <LeftNode>
+            <Node>
+                <Type>question</Type>
+                <Content>Is your celebrity large?</Content>
+                <LeftNode>
+                    <Node>
+                        <Type>celebrity</Type>
+                        <Content>Is your celebrity abraham lincoln?</Content>
+                    </Node>
+                </LeftNode>
+                <RightNode>
+                	<Node>
+                		<Type>celebrity</Type>
+                		<Content>Is your celebrity john wilkes boothe?</Content>
+                	</Node>
+                </RightNode>
+            </Node>
+        </LeftNode>
+        <RightNode>
+            <Node>
+                <Type>question</Type>
+                <Content>Is your celebrity large?</Content>
+                <LeftNode>
+                    <Node>
+                        <Type>celebrity</Type>
+                        <Content>Is your celebrity abraham lincoln?</Content>
+                    </Node>
+                </LeftNode>
+                <RightNode>
+                	<Node>
+                		<Type>celebrity</Type>
+                		<Content>Is your celebrity john wilkes boothe?</Content>
+                	</Node>
+                </RightNode>
+            </Node>
+        </RightNode>
+    </Node>
+</CelebTree>
